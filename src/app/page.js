@@ -1,9 +1,18 @@
+import Book from "@/pages/Book";
+import Header from "@/pages/Header";
+import Portfolio from "@/pages/Portfolio";
+import Testimonial from "@/pages/Testimonial";
 import Image from "next/image";
+import Questions from "@/pages/FAQ";
 // import Header, Recent work, testimonial, book a call, FAQ
 export default function Home() {
   return (
     <div>
-      <h1 className="text-3xl font-bold">MVP for experts of the niche</h1>
+      <Header />
+      <Portfolio />
+      <Testimonial />
+      <Book />
+      <Questions />
     </div>
   );
 }
