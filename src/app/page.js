@@ -1,9 +1,9 @@
-import Book from "@/pages/Book";
-import Header from "@/pages/Header";
-import Portfolio from "@/pages/Portfolio";
-import Testimonial from "@/pages/Testimonial";
+import Book from "@/app/components/Book";
+import Header from "@/app/components/Header";
+import Portfolio from "@/app/components/Portfolio";
+import Testimonial from "@/app/pages/Testimonial";
 import Image from "next/image";
-import Questions from "@/pages/FAQ";
+import Questions from "@/app/components/FAQ";
 // import Header, Recent work, testimonial, book a call, FAQ
 export default function Home() {
   return (
