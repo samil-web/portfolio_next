@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const FAQ = () => {
+const Questions = () => {
   return <div>FAQ</div>;
 };
 
