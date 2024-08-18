@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="py-20 px-6">
+    
+    <section className="py-20 px-6 max-w-44">
       <h1 className="text-5xl font-bold mb-4">
         Get ready to conquer the market with your niche MVP!
       </h1>

@@ -1,4 +1,4 @@
-import Book from "@/app/components/Book";
+import Services from "@/app/components/Services";
 import Hero from "@/app/components/Hero";
 import Portfolio from "@/app/components/Portfolio";
 import Testimonial from "@/app/components/Testimonial";
@@ -23,7 +23,7 @@ export default function Home() {
       <Portfolio />
       <Testimonial />
       <Questions />
-      <Book />
+      <Services />
     </div>
   );
 }
